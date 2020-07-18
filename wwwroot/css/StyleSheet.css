@@ -1,0 +1,86 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Fondamento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+html {
+    
+}
+body {
+    font-family: 'Lato', sans-serif;
+    /*background-color: #B4E7CE;*/
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Fondamento', cursive;
+    color: forestgreen;
+}
+a {
+    color: #57C773;
+}
+a:hover {
+    color: #2a5132;
+}
+a:visited {
+    color: #635255;
+}
+th a:visited {
+    color: #57C773;
+}
+nav {
+    background-color: #59A96A;
+    /*color: white;*/
+}
+.nav-link, .navbar-brand {
+    color: white !important;   
+}
+
+.box-shadow {
+    box-shadow: 0 0.25rem 0.75rem rgba(89, 169, 106, .5);
+}
+.border-bottom {
+    border-bottom: 1px solid #59A96A !important;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: #d8f3e6;
+}
+#home-img-container{
+    margin: auto;
+}
+#home-img {
+    background: rgb(166, 145, 131);
+    max-height: 75vh;
+    max-width: calc((4608 / 3284) * 75vh);
+    min-height: 300px;
+    min-width: calc((4608 / 3284) * 300px);
+    text-align: center;
+}
+#about-table {
+    width: 300px;
+}
+.btn-primary {
+    background-color: #59A96A;
+    border-color: #59A96A;
+}
+.btn-primary:hover {
+    background-color: #57C773;
+    border-color: #57C773;
+}
+.btn-primary:active .dropdown-toggle{
+    background-color: #57C773 !important;
+    border-color: #57C773 !important;
+}
+
+h5 {
+    color: #212529;
+    font-family: 'Lato', sans-serif;
+}
+
+.table thead th {
+    border-bottom-color: #57C773;
+}
+.table th, .table td {
+    border-top-color: #57C773;
+}
+hr {
+    border-top-color: rgba(89, 169, 106, .5);
+}
